@@ -1,10 +1,47 @@
 body {
-    display: flex;
-    justify-content: center;
-    background-image: url('/media/background.png');
+    max-width: 840px;
+    margin: auto;
+    background-image: url('./media/background.png');
   }
 
-.contenu {
-    max-width: 800px;
-    margin: auto;
+header {
+    height: 40px;
+    padding:20px 10px 0px 10px;
+}
+
+main {
+    height: 560px;
+    width: 540px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+}
+
+nav {
+    float:right;
+    height: 560px;
+    width: 280px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+}
+
+footer {
+    height: 180px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+}
+
+
+.headerleft {
+    float: left;
+    text-align:left;
+}
+
+.headerright {
+    float: right;
+    text-align:right;
+}
+
+.principal {
+    text-align: center;
+    padding-bottom: 20px;
 }

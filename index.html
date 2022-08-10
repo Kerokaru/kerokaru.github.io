@@ -4,29 +4,40 @@
     <head>
         <title>Titre de la page</title>
         <link rel="stylesheet" href="./style.css">
+        <script type="text/javascript" src="./button.js"></script>
     </head>
 
     <body>
-    <div class="contenu">test
+
         <header>
-            <div id="headerleft">
-                <h1>InfiniteRoi</h1>
+            <div class="headerleft">
+                InfiniteRoi
             </div>
-            <div id="headerright">
+            <div class="headerright">
                 <img src="./media/wallet.png" />
             </div>
         </header>
 
-        <main>
-            <h2>Kero Crystal</h2>
-            <p>Fire Aura : x1.2 bonus</p>
+        <div class="principal">
+            <nav>
+                <h2>Jackpot</h2>
+                <h3>Recompounding</h3>
+                <br><br>
+                <button id="bouton1" onclick="nomAleatoire">Nom aléatoire</button><br><br><br><br>
+            </nav>
+            <main>
+                <img src="./media/crystal.png" />
+                <h2>Kero Crystal</h2>
+                Fire Aura : x1.2 bonus
 
-        </main>
+            </main>
 
-        <sidebar>
-            <div>Jackpot</div>
-            <div>Recompounding</div>
-        </sidebar>
-    </div>
+      </div>
+
+        <footer>
+            Fin
+        </footer>
+
+
     </body>
 </html>
