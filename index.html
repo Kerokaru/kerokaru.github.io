@@ -8,11 +8,15 @@
 
         <script>
 
-document.getElementById("bouton1").addEventListener("click", nomAleatoire);
-
 function nomAleatoire {
     document.getElementById("crystalname").innerHTML = "crotte";
+
+    for (let i = 0; i < 100; i++) {
+    document.getElementById("crystalname").innerHTML = "crotte" + i;
+    }
 }
+
+nomAleatoire();
 
 
 
